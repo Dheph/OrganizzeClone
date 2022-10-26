@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.OrganizzeClone" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="Theme.OrganizzeClone.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.OrganizzeClone.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.OrganizzeClone.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--  Expense theme  -->
+    <style name="ExpenseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:colorPrimary">@color/expense_primary</item>
+        <item name="android:colorPrimaryDark">@color/expense_primary_dark</item>
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:colorAccent">@color/accent</item>
+    </style>
+
+    <!--  Revenue theme  -->
+    <style name="RevenueTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:colorPrimary">@color/revenue_primary</item>
+        <item name="android:colorPrimaryDark">@color/revenue_primary_dark</item>
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:colorAccent">@color/accent</item>
+    </style>
+
+
+</resources>
